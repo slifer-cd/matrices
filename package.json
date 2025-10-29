@@ -1,0 +1,29 @@
+{
+  "name": "@slifercd/linear_algebra-lib",
+  "version": "0.1.0",
+  "description": "linear_algebra-lib",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": ["linear_algebra"],
+  "author": "Ahmad Herzallah",
+  "license": "MIT",
+  "packageManager": "pnpm@10.18.0",
+  "devDependencies": {
+    "@types/node": "^24.8.1",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  }
+}
